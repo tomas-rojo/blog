@@ -3,7 +3,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - master  # Set the branch to watch
+      - main
 
 jobs:
   build:
